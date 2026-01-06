@@ -1,0 +1,18 @@
+name: CI (placeholder)
+
+# Replace triggers, runtime, and steps after choosing your stack and commands.
+on:
+  workflow_dispatch:
+
+jobs:
+  configure_me:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder
+        run: |
+          echo "Set up CI after defining stack and quality gates."
+          echo "Suggested next steps:"
+          echo " 1) Choose runtime/tooling (Node/Python/Go/...)."
+          echo " 2) Align commands with policies/quality_gates.md."
+          echo " 3) Add install/setup and lint/format/test steps."
+          echo " 4) Adjust triggers (push/PR) as needed."
