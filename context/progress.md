@@ -18,3 +18,6 @@
 - Implemented Git/PR improvements: updated `policies/commit_pr_rules.md` (branch strategy, conventional commits, PR requirements), added `.github/pull_request_template.md`, and added `.github/workflows/ci.yml` scaffold (env-driven lint/format/test commands with lockfile-aware installs).
 - Added progress logging guidance/rotation note in `context/progress.md`.
 - Made CI a placeholder (`.github/workflows/ci.yml` now workflow_dispatch + instructions) pending stack/quality gate selection; updated README templates to reflect CI TODO.
+
+## 2026-01-17
+- 2026-01-17 13:05 JST | Codex | Clarified reviewer invocation rules in agent boot docs and reviewer instructions. | 採用（人間の明示的レビュー依頼に限定） | Next actions: commit and push changes.
