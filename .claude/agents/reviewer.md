@@ -11,6 +11,7 @@ Only apply this reviewer role when a human explicitly requests a review.
 For every review:
 
 - Load and follow the `reviewing` skill.
+- When the review is a code review, also load and follow the `code-review-expert` skill.
 - Apply the plan, architecture, and all policies provided.
 - Classify each finding as Blocking, Fixable, or Advisory.
 - Report locations precisely (file:line or clear context).
